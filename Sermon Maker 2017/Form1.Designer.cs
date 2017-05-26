@@ -34,12 +34,16 @@
             // 
             // btnGetStarted
             // 
-            this.btnGetStarted.Location = new System.Drawing.Point(107, 309);
+            this.btnGetStarted.BackColor = System.Drawing.Color.Transparent;
+            this.btnGetStarted.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGetStarted.ForeColor = System.Drawing.Color.Transparent;
+            this.btnGetStarted.Location = new System.Drawing.Point(12, 182);
             this.btnGetStarted.Name = "btnGetStarted";
-            this.btnGetStarted.Size = new System.Drawing.Size(171, 23);
+            this.btnGetStarted.Size = new System.Drawing.Size(360, 167);
             this.btnGetStarted.TabIndex = 0;
             this.btnGetStarted.Text = "Get Started...";
-            this.btnGetStarted.UseVisualStyleBackColor = true;
+            this.btnGetStarted.UseVisualStyleBackColor = false;
+            this.btnGetStarted.Click += new System.EventHandler(this.btnGetStarted_Click);
             // 
             // frmSplashScreen
             // 

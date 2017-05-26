@@ -15,6 +15,13 @@ namespace Sermon_Maker_2017
         public frmSplashScreen()
         {
             InitializeComponent();
+            btnGetStarted.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnGetStarted.FlatAppearance.MouseOverBackColor = Color.Transparent;
+        }
+
+        private void btnGetStarted_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

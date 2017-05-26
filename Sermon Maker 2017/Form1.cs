@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sermon_Maker_2017
 {
-    public partial class Form1 : Form
+    public partial class frmSplashScreen : Form
     {
-        public Form1()
+        public frmSplashScreen()
         {
             InitializeComponent();
         }

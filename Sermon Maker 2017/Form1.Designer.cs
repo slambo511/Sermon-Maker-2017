@@ -51,7 +51,7 @@
             this.lblCopyright.BackColor = System.Drawing.Color.Transparent;
             this.lblCopyright.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCopyright.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblCopyright.Location = new System.Drawing.Point(-3, 347);
+            this.lblCopyright.Location = new System.Drawing.Point(2, 342);
             this.lblCopyright.Name = "lblCopyright";
             this.lblCopyright.Size = new System.Drawing.Size(175, 15);
             this.lblCopyright.TabIndex = 1;

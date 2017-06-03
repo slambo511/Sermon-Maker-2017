@@ -81,6 +81,7 @@
             this.Controls.Add(this.lblClickToStart);
             this.Controls.Add(this.lblCopyright);
             this.Controls.Add(this.btnStart);
+            this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(400, 400);
